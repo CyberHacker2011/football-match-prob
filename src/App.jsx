@@ -79,7 +79,7 @@ function App() {
       setMessage(`💔 Your team was eliminated in the ${getStageName(roundLen)}. Final placement: ${place}`);
     } else if (winners.length === 1) {
       setGameOver(true);
-      setMessage("🎉 Congrats! Your team won the tournament!");
+      setMessage("🎉 Congrats! Your team won the tournament!!!");
     } else {
       setMessage(`✅ ${chosenTeam} advances to the ${getStageName(winners.length)}`);
     }
