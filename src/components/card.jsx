@@ -11,7 +11,7 @@ function Card({ club, isSelected, onClick }) {
     >
       <div className="w-16 h-16">
         <img
-          src={`src/assets/${club}.png`}
+          src={`/assets/${club}.png`}
           alt={`${club} logo`}
           className="w-full h-full object-contain"
         />
